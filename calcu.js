@@ -11,6 +11,8 @@ function deleteLast() {
   display.value = display.value.slice(0, -1);
 }
 
+
+
 function calculate() {
   let display = document.getElementById('display');
   try {
